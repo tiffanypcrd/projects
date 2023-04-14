@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  user-select: none;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(./img/bg.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.logo a {
+  color: whitesmoke;
+  padding: 0px 20px;
+  border: 1px solid whitesmoke;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 900;
+  text-shadow: rgba(0, 0, 0, 0.7);
+}
+
+.logo span {
+  color: rgb(238, 56, 11);
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+ul {
+  list-style: none;
+  /* Disposer les éléments sur la page avec "float" */
+  float: right;
+  display: flex;
+  margin-top: 20px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  margin: 10px;
+  font-weight: 500;
+  transition: 0.6s ease;
+}
+
+ul li a:hover {
+  background: whitesmoke;
+  color: black;
+}
+
+ul li.active a {
+  background: whitesmoke;
+  color: black;
+}
+
+.principal {
+  max-width: 114rem;
+  margin: 0 auto;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title h1 {
+  color: whitesmoke;
+  font-size: 70px;
+}
+
+.button {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.button a {
+  color: whitesmoke;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  border: 1px solid transparent;
+  padding: 10px 20px;
+}
+
+.btn {
+  transition: 0.6s ease;
+}
+
+.btn:hover {
+  background-color: whitesmoke;
+  color: black;
+}
